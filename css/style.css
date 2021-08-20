@@ -96,3 +96,31 @@ header ul  li a
     background-position: center;
     transition: all .1s ease-in-out;
 }
+
+.sobre_nosotros{
+    position: relative;
+    width: 100%;
+    height: calc(50vh - 50px);
+    background-color:#fff;
+    background-size: cover;
+    background-position: center;
+    transition: all .1s ease-in-out;
+}
+.equipo{
+    position: relative;
+    width: 100%;
+    height: calc(50vh - 50px);
+    background-color:#F5F5F5;
+    background-size: cover;
+    background-position: center;
+    transition: all .1s ease-in-out;
+}
+.contacto{
+    position: relative;
+    width: 100%;
+    height: calc(75vh - 50px);
+    background-color:#fff;
+    background-size: cover;
+    background-position: center;
+    transition: all .1s ease-in-out;
+}

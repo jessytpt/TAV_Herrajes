@@ -20,42 +20,46 @@
   <!--MENU-->
   <section>
     <header>
-      <a href="#" class="logo"><img src="img/tav_logo_min.png"></a>
+      <a href="#inicio" class="logo"><img src="img/tav_logo_min.png"></a>
       <ul class="nav justify-content-end">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+          <a class="nav-link active" aria-current="page" href="#inicio">Inicio</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Productos</a>
+          <a class="nav-link" href="#ver_productos">Ver Productos</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Sobre Nosotros</a>
+          <a class="nav-link" href="#sobre_nosotros">Sobre Nosotros</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Contacto</a>
+          <a class="nav-link" href="#equipo">Equipo</a>
         </li>
         <li class="nav-item">
+          <a class="nav-link" href="#contacto">Contáctanos</a>
+        </li>
+        <!--<li class="nav-item">
           <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Comprar</a>
         </li>
+      -->
       </ul>
     </header>
 
     <body>
       <!--BANNER-->
-      <section class="banner">
+      <section id="inicio" class="banner">
         <div class="banner-content">
           <h1>Crea espacios interiores flexibles</h1>
           <h3>Herrajes para muebles multifuncionales</h3>
-          <a href="#">Ver Productos</a>
+          <a href="#ver_productos">Ver Productos</a>
         </div>
     </body>
   </section>
   </section>
 
-  <section class="productos">
+  <section id="ver_productos" class="productos">
     <header>
       <div class="banner-content">
-        <h1>Nuestros Productos</h1>
+        <h2>Nuestros Productos</h2>
       </div> 
     </header>
     <div class="productos_col">
@@ -97,17 +101,167 @@
     </div>
   </section>
 
+  <!--SOBRE NOSOTROS-->
+  <section id="sobre_nosotros" class="sobre_nosotros">
+    <header>
+      <div class="banner-content">
+        <h2>Sobre Nosotros</h2>
+      </div> 
+    </header>
+    <div class="container">
+      <div class="row align-items-start">
+        <div class="col">
+          <p>
+            TAV es una empresa enfocada en el Diseño y Comercialización de herrajes
+            mecánicos para muebles multifuncionales. Nuestros productos son 
+            la materia prima para  crear camas baúles, Centros de Mesa plegables,
+             Sofás que se convierten en camas, en resumen poder convertir un mueble en otro y al mismo tiempo ahorrar espacio.
+          </p>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-6 col-sm-3">
+              <div class="card mb-3" style="max-width: 540px;">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="./img/mision.png" class="img-fluid rounded-start" alt="...">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">Misión</h5>
+                      <p class="card-text">
+                        Nuestro propósico es ayudarte a crear espacios interiores flexibles
+                        en dónde las personas se sienta cómodas mientras realizan sus actividades diariarias
+                        como estudiar o trabajar.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
 
-  <div class="contacto">
-    <div class="mb-3">
-      <label for="exampleFormControlInput1" class="form-label">Email address</label>
-      <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+            </div>
+            <div class="col-6 col-sm-3">
+              <div class="card mb-3" style="max-width: 540px;">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="./img/vision.png" class="img-fluid rounded-start" alt="...">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">Visión</h5>
+                      <p class="card-text">
+                        Ser pionerps en la producción de herrajes nacionales
+                        para el 2022. Siendo reconocidos como la mejor
+                        opción de proveedores de insumos para 
+                        la construccion de mobiliario
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+        
+          </div>
+        </div>
     </div>
-    <div class="mb-3">
-      <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
-      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+  </section>
+  <!--EQUIPO-->
+  <section id="equipo" class="equipo">
+    <header>
+      <div class="banner-content">
+        <h2>Equipo</h2>
+      </div> 
+    </header>
+    <div class="container">
+      <div class="row align-items-start">
+        <div class="col">
+          <p>
+           TAV es un equipo multidisciplinario
+          </p>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-6 col-sm-3">
+              <div class="card mb-3" style="max-width: 540px;">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="./img/fundador_1.JPG" class="img-fluid rounded-start" alt="...">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">Jessenia Toapanta</h5>
+                      <p class="card-text">
+                        Ing. en Sistemas
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+            <div class="col-6 col-sm-3">
+              <div class="card mb-3" style="max-width: 540px;">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="./img/fundador2.jpg" class="img-fluid rounded-start" alt="...">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">Juan Pablo Vargas</h5>
+                      <p class="card-text">
+                        Ing. Industrial
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+        
+          </div>
+        </div>
     </div>
-  </div>
+  </section>
+
+  <!--CONTACTO-->
+  <section id="contacto" class="contacto">
+    <header>
+      <div class="banner-content">
+        <h2>Contáctanos</h2>
+      </div> 
+    </header>
+    <div class="container">
+      <div class="row align-items-start">
+        <div class="col">
+          <p>Redes Sociales</p>
+        </div>
+        <div class="col">
+          <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Nombres:</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" >
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Correo:</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nombre@ejemplo.com">
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Teléfono:</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" >
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Mensaje:</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          </div>
+          <div text-aling="center">
+            <button type="button" class="btn btn-primary">Enviar</button>
+          </div>
+          
+        </div>
+        </div>
+      
+    </div>
+  </section>
+
+ 
 
   <footer></footer>
   <!--BOOTSTRAP 5-->
